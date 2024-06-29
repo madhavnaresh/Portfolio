@@ -1,3 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Display","Kanit", serif;
+}
 body{
-    background-color: #e23d3d;
+    background: #161f30;
+    color: #9ac1fc;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.logo{
+    font-size: 25px;
+    color: #9ac1fc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: #9ac1fc;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+}
+.navbar a:hover,
+.navbar a.clicked{
+    color: #ffa89eb0;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+}
+.home-cont{
+    max-width: 600px;
+}
+.home-cont h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.home-cont h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffa89eb0;
+}
+.home-cont p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.home-cont .btnbox{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 40px;
+    margin: 10px 0 0 0;
+}
+.btnbox a{
+    width: 90px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #9ac1fc;
+    border: 2px solid #9ac1fc;
+    border-radius: 7px;
+    font-size:17px;
+    color: #161f30;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
