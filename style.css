@@ -65,21 +65,51 @@ body{
 .home-cont .btnbox{
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 220px;
     height: 40px;
     margin: 10px 0 0 0;
 }
 .btnbox a{
-    width: 90px;
+    width: 100px;
     height: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background: #9ac1fc;
+    background: #161f30;
     border: 2px solid #9ac1fc;
     border-radius: 7px;
     font-size:17px;
-    color: #161f30;
+    color: #9ac1fc;
     text-decoration: none;
     letter-spacing: 1px;
+}
+.btnbox a:hover{
+    color: #161f30;
+    background: #9ac1fc;
+}
+.home-ic{
+    position: absolute;
+    bottom: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    /* background: yellow; */
+}
+.home-ic a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: #161f30;
+    border: 2px solid #ffa89eb0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-decoration: none;
+    color: #ffa89eb0;
+}
+.home-ic a:hover{
+    color: #161f30;
+    background: #ffa89eb0;
 }
