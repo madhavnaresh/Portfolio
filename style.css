@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    position: relative;
+    /* position: relative; */
     font-size: 25px;
     color: #9ac1fc;
     text-decoration: none;
@@ -44,8 +44,18 @@ body {
     width: 100%;
     height: 100%;
     background: #161f30;
-    animation: showleft .5s ease forwards;
-    animation-delay: .5s;
+    animation: headerani .5s ease forwards;
+    animation-delay: .2s;
+}
+
+@keyframes headerani {
+    50%,90%{
+        width: 50vw;
+    }
+    100% {
+        width: 0;
+    }
+
 }
 
 @keyframes showleft {
@@ -69,7 +79,7 @@ body {
 }
 
 .home {
-    background: url('png\ Elegant\ Cinematic\ Wedding\ Thumbnail\ HD\ 16_9_20240630_101727_0000.png') no-repeat;
+    background: url('photo.png') no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -95,7 +105,7 @@ body {
     width: 100%;
     height: 100%;
     background: #161f30;
-    animation: showleft 1s ease forwards;
+    animation: showleft .5s ease forwards;
     animation-delay: .5s;
 }
 
@@ -114,9 +124,10 @@ body {
     width: 100%;
     height: 100%;
     background: #161f30;
-    animation: showleft 1s ease forwards;
-    animation-delay:1s;
+    animation: showleft .5s ease forwards;
+    animation-delay: .7s;
 }
+
 .home-cont p {
     position: relative;
     margin: 10px 0;
@@ -133,16 +144,29 @@ body {
     width: 100%;
     height: 100%;
     background: #161f30;
-    animation: showleft 1s ease forwards;
-    animation-delay: 1.5s;
+    animation: showleft .5s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-cont .btnbox {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 220px;
     height: 40px;
     margin: 10px 0 0 0;
+}
+
+.home-cont .btnbox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #161f30;
+    animation: showleft .5s ease forwards;
+    animation-delay: 1.4s;
 }
 
 .btnbox a {
@@ -171,7 +195,19 @@ body {
     width: 180px;
     display: flex;
     justify-content: space-between;
-    /* background: yellow; */
+}
+
+.home-ic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #161f30;
+    animation: showleft .5s ease forwards;
+    animation-delay: 1.8s;
+    z-index: 2;
 }
 
 .home-ic a {
@@ -200,10 +236,22 @@ body {
     right: 145px;
     width: 430px;
     height: 80%;
-    /* border: 2px solid red; */
     background: transparent;
     transition: 3s;
 }
+
+.imghover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #161f30;
+    animation: showleft .8s ease forwards;
+    animation-delay: 1s;
+}
+
 
 .imghover:hover {
     background: #161f30;
