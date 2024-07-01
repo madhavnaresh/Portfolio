@@ -1,7 +1,76 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: "DM Serif Display", "Kanit", serif;
 }
-body{
+
+body {
     background: #161f30;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* background: white; */
+    padding-top: 70px;
+}
+
+header a {
+    color: #9ac1fc;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+section {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    /* margin-top: 70px; */
+    margin: 35px 0 0 99px;
+    background: #ffa89eb0;
+    width: 90%;
+    height: 3px;
+}
+
+.skill {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 170px 0 0 99px;
+}
+
+.skill h3 {
+    display: flex;
+    color: #ffa89eb0;
+    letter-spacing: 1.25px;
+    font-size: 22px;
+}
+
+.skill ul {
+    /* justify-content: center; */
+    margin: 5px 0 0 0;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5px 0 0 90px;
+}
+
+.skill ul li {
+    /* margin: 1px 0 0 0; */
+    float: left;
+    color:aquamarine;
 }
