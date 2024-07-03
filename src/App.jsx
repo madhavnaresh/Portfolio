@@ -25,14 +25,14 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Madhav Gupta",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  title: "Frontend Developer",
+  email: "madhavgupta639@gmail.com",
+  gitHub: "madhavnaresh",
+  instagram: "yourmadhavgupta",
+  linkedIn: "madhavgupta90",
+  // medium: "",
+  // twitter: "microsoft",
+  // youTube: "Code",
 };
 
 const primaryColor = "#4E567E";
