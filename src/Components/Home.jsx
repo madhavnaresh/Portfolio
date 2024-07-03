@@ -9,13 +9,15 @@ import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
+import Image from "../images/my_image.jpg";
+
 const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src="my_image.jpg" alt="" />
+      <img className="background" src={Image} alt="" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
